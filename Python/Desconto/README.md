@@ -4,7 +4,7 @@ Projeto em Python que calcula o salário líquido aplicando descontos progressiv
 
 ## Como usar
 
-- Execute o arquivo `desconto.py'
+- Execute o arquivo `desconto.py`
 - Informe o valor do salário bruto quando solicitado.
 - O programa calculará e mostrará o salário líquido descontando a alíquota correspondente.
 
@@ -23,3 +23,4 @@ Projeto em Python que calcula o salário líquido aplicando descontos progressiv
 ## Autor
 
 Vítor Britto
+
