@@ -1,23 +1,24 @@
-# Simulador de Empréstimo para Imóvel
+# Calculadora Simples em Python
 
-Projeto em Python que calcula se um empréstimo para compra de imóvel é aprovado ou não, baseado no salário do usuário e no valor da casa. O programa verifica se a prestação mensal ultrapassa 30% do salário.
+Projeto que implementa uma calculadora básica para somar, subtrair, multiplicar e dividir dois números.
 
 ## Como usar
 
-- Clone este repositório.
-- Execute o arquivo `emprestimo.py`.
-- Siga as instruções na tela para informar valor da casa, salário e prazo do empréstimo..
+- Execute o arquivo `calculadora.py`.
+- Siga as instruções na tela para digitar os dois valores e escolher a operação.
+- O programa valida divisão por zero e opções inválidas.
+- Após cada cálculo, você pode escolher continuar ou encerrar a calculadora.
 
 ## Funcionalidades
 
-- Cálculo da prestação mensal.
-- Validação do limite máximo de 30% do salário.
-- Loop para realizar múltiplos cálculos.
+- Operações de soma, subtração, multiplicação e divisão.
+- Tratamento para divisão por zero.
+- Validação da opção escolhida pelo usuário.
+- Loop para realizar múltiplas operações até o usuário decidir sair.
 
 ## Tecnologias usadas
 
 - Python 3
-- Biblioteca padrão (time)
 
 ## Autor
 
