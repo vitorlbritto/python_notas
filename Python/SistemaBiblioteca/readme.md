@@ -1,32 +1,28 @@
-Sistema de Empréstimo de Livros - Biblioteca
-Programa em Python que gerencia uma biblioteca, permitindo adicionar livros, registrar usuários e controlar empréstimos de livros. O sistema permite aos usuários emprestarem e devolverem livros, além de verificar a disponibilidade dos mesmos.
+# Sistema de Empréstimo de Livros - Biblioteca
 
-Como usar
-Execute o arquivo sistema_biblioteca.py.
+Projeto que gerencia uma biblioteca, permitindo adicionar livros, registrar usuários e controlar empréstimos de livros. O sistema permite aos usuários emprestarem e devolverem livros, além de verificar a disponibilidade dos mesmos.
 
-Para cada livro, informe o título, o autor e, ao adicionar à biblioteca, o livro será registrado.
+## Como usar
 
-Para cada usuário, informe o nome ao criar o usuário.
+- Execute o arquivo `sistema_biblioteca.py`.
+- Crie instâncias de livros, informando título, autor e disponibilidade.
+- Registre usuários, fornecendo o nome do usuário.
+- Adicione livros ao catálogo da biblioteca.
+- Usuários podem **emprestar** livros, **devolver** livros e verificar a **disponibilidade** dos livros no catálogo.
+- O programa valida a disponibilidade dos livros antes do empréstimo e devolução.
 
-Os usuários podem emprestar e devolver livros.
+## Funcionalidades
 
-O programa verifica se o livro está disponível para empréstimo ou se já está emprestado.
+- Cadastro de livros: Adiciona livros ao catálogo da biblioteca.
+- Empréstimo de livros: Permite que os usuários peguem livros emprestados se estiverem disponíveis.
+- Devolução de livros: Permite que os usuários devolvam os livros emprestados e os marque como disponíveis novamente.
+- Busca de livros: Permite procurar um livro pelo título no catálogo da biblioteca.
+- Validação de disponibilidade: Verifica se o livro está disponível para empréstimo antes de realizar a ação.
 
-Ao final, o sistema permite buscar um livro na biblioteca para verificar se está no catálogo.
+## Tecnologias usadas
 
-Funcionalidades
-Cadastro de livros: Adiciona livros ao catálogo da biblioteca.
+- Python 3
 
-Empréstimo de livros: Permite que os usuários peguem livros emprestados se estiverem disponíveis.
+## Autor
 
-Devolução de livros: Permite que os usuários devolvam os livros emprestados e os marque como disponíveis novamente.
-
-Busca de livros: Permite procurar um livro pelo título no catálogo da biblioteca.
-
-Validação de disponibilidade: Verifica se o livro está disponível para empréstimo antes de realizar a ação.
-
-Tecnologias usadas
-Python 3
-
-Autor
 Vítor Britto
